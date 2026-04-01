@@ -15,7 +15,7 @@ body{
     background-size: cover;
     background-position: center;
 }
-.Container{
+.container{
     padding: 10px 10%;
 }
 
@@ -40,6 +40,7 @@ nav ul li{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+
 }
 nav ul li a::after{
     content: '';
@@ -72,6 +73,7 @@ nav ul li a:hover::after{
 }
 .row{
     display: flex;
+    margin-top: 70px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -81,14 +83,14 @@ nav ul li a:hover::after{
 }
 .about-col-1 Img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .about-col-2{
     flex-basis: 60%;
 }
 
 .sub-title{
-    font-size: 60px;
+    font-size: 30px;
     font-weight:600;
     color: #fff;
 }
@@ -108,8 +110,8 @@ nav ul li a:hover::after{
     content: '';
      width:0;
     height: 3px;
-    background: #ff2600;
-    position: absolutr;
+    background: #ff004f;
+    position: absolute;
     left: 0;
     bottom:-8px;
     transition:0.5s;
@@ -124,8 +126,8 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-content ul li span{
-    color: #f10952;
-    font-size: #b5b5b5;                                 
+    color: #ff004f;
+    font-size: 14px;                                 
 }
 .tab-contexts{
     display: none;
