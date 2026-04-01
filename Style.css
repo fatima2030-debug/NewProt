@@ -39,7 +39,7 @@ nav ul li{
 nav ul li{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     position:relative 
 }
 nav ul li a::after{
@@ -49,11 +49,11 @@ nav ul li a::after{
     background: #ff004f;
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: -6px;
     transition: 0.5s;
 }
 nav ul li a::after{
-    width:100%
+    width:80%
 }
 .header-text{
     margin-top: 20;
