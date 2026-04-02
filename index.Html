@@ -67,14 +67,23 @@
                                 <li><span>2014</span><br>BBA from ISM Bagalore.</li>
                             </ul>
                         </div>
+                    </div>    
                 </div>  
             </div>
         </div>
-        
-    
-<script>
+    <script>
+
     var tablinks = document.getElementByClassName("tab-links");
     var tabcontents = document.getElementByClassName();
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.cassList.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tabcontents.classList.remove("active-link");
+        }
+    }
 </script>
     </body>
 </html>
